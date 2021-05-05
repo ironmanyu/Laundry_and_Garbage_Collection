@@ -4,7 +4,7 @@
   <arg name="debug" default="false"/>
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
-  <arg name="world" default="worlds/empty.world"/> 
+  <arg name="world" default="$(find robotics_labs)/models/test_floorplan.world"/> 
   <!-- Note: the world_name is with respect to GAZEBO_RESOURCE_PATH environmental variable (/opt/share/gazebo-9/) -->
   <!-- Note2: to include fetchit_challenge worlds change default to: "$(find fetchit_challenge)/worlds/fetchit_challenge_simple.world" --> 
   <!-- Note3: to change world from the terminal substitute $(find ...) for $HOME/catkin_ws/src/... -->

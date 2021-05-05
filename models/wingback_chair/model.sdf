@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='floorplan'>
+  <model name='wingback_chair'>
     <link name='link'>
       <inertial>
         <mass>150</mass>
@@ -23,11 +23,7 @@
         <pose frame=''>0.0 0.0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-<<<<<<< HEAD
-            <uri>/home/dewey/517/src/robotics_labs/models/floorplan/meshes/gix216plus.dae</uri>
-=======
-            <uri>/home/maru/catkin_ws/src/robotics_labs/models/floorplan/meshes/gix216plus.dae</uri>
->>>>>>> New furniture models
+            <uri>/home/maru/catkin_ws/src/robotics_labs/models/wingback_chair/meshes/wingback_chair_mm.dae</uri>
           </mesh>
         </geometry>
         <transparency>0</transparency>
@@ -39,11 +35,7 @@
         <pose frame=''>0.0 0.0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-<<<<<<< HEAD
-            <uri>/home/dewey/517/src/robotics_labs/models/floorplan/meshes/gix216plus.dae</uri>
-=======
-            <uri>/home/maru/catkin_ws/src/robotics_labs/models/floorplan/meshes/gix216plus.dae</uri>
->>>>>>> New furniture models
+            <uri>/home/maru/catkin_ws/src/robotics_labs/models/wingback_chair/meshes/wingback_chair_mm.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
