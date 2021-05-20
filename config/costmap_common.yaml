@@ -1,0 +1,18 @@
+robot_base_frame: base_link
+
+transform_tolerance: 0.5
+
+robot_radius: 0.30
+
+global_costmap:
+  robot_radius: 0.30
+  inflation_radius: 0.6
+  cost_scaling_factor: 3
+    # original inflation_radius = 0.7
+
+local_costmap:
+  robot_radius: 0.30
+  inflation_radius: 0.2
+    # original inflation_radius = 0.7
+
+# Obstacles are defined in robot folders
