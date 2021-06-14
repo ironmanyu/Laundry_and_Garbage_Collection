@@ -124,10 +124,17 @@
       <pose frame=''>-10.0091 -2.4084 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
+<<<<<<< HEAD
       <!-- <sim_time>231 50000000</sim_time>
       <real_time>291 565483946</real_time>
       <wall_time>1617317054 821409731</wall_time> -->
       <!-- <iterations>231050</iterations> -->
+=======
+      <sim_time>231 50000000</sim_time>
+      <real_time>291 565483946</real_time>
+      <wall_time>1617317054 821409731</wall_time>
+      <iterations>231050</iterations>
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
       <model name='TECHIN517_GIX'>
         <pose frame=''>-10 -2 0 0 -0 0</pose>
         <scale>1 1 1</scale>

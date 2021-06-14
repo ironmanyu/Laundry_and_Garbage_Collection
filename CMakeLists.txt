@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.7.2)
+<<<<<<< HEAD
 project(robotics_labs)
 
 find_package(catkin REQUIRED 
@@ -71,14 +72,31 @@ add_dependencies(moveit_test ${catkin_EXPORTED_TARGETS})
 
 add_executable(motionplan src/motionplan.cpp)
 target_link_libraries(motionplan ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+=======
+project(Laundry_and_Garbage_Collection)
+
+find_package(catkin)
+catkin_package()
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
 
 install(
   PROGRAMS
     scripts/demo.py
+<<<<<<< HEAD
+=======
+    scripts/pick_place_demo.py
+    scripts/tests_arm_movements.py
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 install(
+<<<<<<< HEAD
   DIRECTORY launch maps config msg srv
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+=======
+  DIRECTORY launch maps config
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb

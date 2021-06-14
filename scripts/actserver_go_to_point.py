@@ -7,6 +7,7 @@ import actionlib
 # Brings in the .action file and messages used by the move base action
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 
+<<<<<<< HEAD
 def get_goal(x,y,z,qx,qy,qz,qw):
     goal = MoveBaseGoal()
     goal.target_pose.header.frame_id = "map"
@@ -25,6 +26,9 @@ def get_goal(x,y,z,qx,qy,qz,qw):
 
 # takes a MoveBaseGoal object
 def movebase_client(goal):
+=======
+def movebase_client():
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
 
    # Create an action client called "move_base" with action definition file "MoveBaseAction"
     client = actionlib.SimpleActionClient('move_base',MoveBaseAction)
@@ -32,6 +36,23 @@ def movebase_client(goal):
    # Waits until the action server has started up and started listening for goals.
     client.wait_for_server()
 
+<<<<<<< HEAD
+=======
+   # Creates a new goal with the MoveBaseGoal constructor
+    goal = MoveBaseGoal()
+    goal.target_pose.header.frame_id = "map"
+    goal.target_pose.header.stamp = rospy.Time.now()
+   # Select position based on the "map" coordinate frame 
+    goal.target_pose.pose.position.x = 3.762
+    goal.target_pose.pose.position.y = 7.756
+    goal.target_pose.pose.position.z = 0.0
+   # Select orientation w.r.t. map frame
+    goal.target_pose.pose.orientation.x = 0.0
+    goal.target_pose.pose.orientation.y = 0.0
+    goal.target_pose.pose.orientation.z = 1.0
+    goal.target_pose.pose.orientation.w = 0.0
+
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
    # Sends the goal to the action server.
     client.send_goal(goal)
    # Waits for the server to finish performing the action.
@@ -49,6 +70,7 @@ if __name__ == '__main__':
     try:
        # Initializes a rospy node to let the SimpleActionClient publish and subscribe
         rospy.init_node('planning_goal')
+<<<<<<< HEAD
 
         # Creates a new goal with the MoveBaseGoal constructor
         goal_list = []
@@ -71,5 +93,10 @@ if __name__ == '__main__':
           result = movebase_client(goal)
           if result:
               rospy.loginfo("Goal execution done!")
+=======
+        result = movebase_client()
+        if result:
+            rospy.loginfo("Goal execution done!")
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
     except rospy.ROSInterruptException:
         rospy.loginfo("Navigation test finished.")

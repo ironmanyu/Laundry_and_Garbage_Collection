@@ -3,6 +3,7 @@
   <model name='TECHIN517_GIX'>
     <static>true</static>
     <link name='link'>
+<<<<<<< HEAD
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <inertia>
@@ -15,6 +16,8 @@
         </inertia>
         <mass>1</mass>
       </inertial>
+=======
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
       <collision name='collision'>
         <geometry>
           <mesh>
@@ -34,3 +37,7 @@
     </link>
   </model>
 </sdf>
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # This repo is for labs
+=======
+# This repo is for the project 'Laundry and Garbage Collection'
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
 
 
 ## Working in this repo
@@ -9,7 +13,11 @@ git clone <Input the HTTPS of the repo>
 ```
 here it should be
 ```
+<<<<<<< HEAD
 git clone https://github.com/ironmanyu/robotics_labs.git
+=======
+git clone https://github.com/ironmanyu/Laundry_and_Garbage_Collection.git
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
 ```
 2. if you have not a branch yet, you need to set up it. If you have a branch already, go to step 4.
 ```

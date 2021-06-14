@@ -1,4 +1,5 @@
 <package>
+<<<<<<< HEAD
   <name>robotics_labs</name>
   <version>0.9.2</version>
   <description>
@@ -6,12 +7,26 @@
   </description>
   <author>Michael Ferguson</author>
   <maintainer email="zhitaoyu@uw.edu">Zhitao Yu</maintainer>
+=======
+  <name>Laundry_and_Garbage_Collection</name>
+  <version>0.9.2</version>
+  <description>
+    Demos for fetch_gazebo package.
+  </description>
+  <author>Michael Ferguson</author>
+  <maintainer email="narora@fetchrobotics.com">Niharika Arora</maintainer>
+  <maintainer email="selliott@fetchrobotics.com">Sarah Elliott</maintainer>
+  <maintainer email="csaldanha@fetchrobotics.com">Carl Saldanha</maintainer>
+  <maintainer email="erelson@fetchrobotics.com">Eric Relson</maintainer>
+  <maintainer email="opensource@fetchrobotics.com">Fetch Robotics Open Source Team</maintainer>
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
 
   <license>BSD</license>
   <url>http://ros.org/wiki/fetch_gazebo_demo</url>
   
   <buildtool_depend>catkin</buildtool_depend>
 
+<<<<<<< HEAD
   <build_depend>roscpp</build_depend>
   <build_depend>pcl_conversions</build_depend>
   <build_depend>pcl_ros</build_depend>
@@ -22,6 +37,8 @@
   <run_depend>pcl_ros</run_depend>
   <run_depend>libpcl-all</run_depend>
   
+=======
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
   <run_depend>actionlib</run_depend>
   <run_depend>fetch_gazebo</run_depend>
   <run_depend>fetch_moveit_config</run_depend>
@@ -30,6 +47,9 @@
   <run_depend>moveit_python</run_depend>
   <run_depend>simple_grasping</run_depend>
   <run_depend>teleop_twist_keyboard</run_depend>
+<<<<<<< HEAD
 
   <run_depend>message_runtime</run_depend>
+=======
+>>>>>>> e221825f4fec1f832483110c8063ca9898a185bb
 </package>
