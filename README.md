@@ -1,4 +1,4 @@
-# README for TECHIN517 Milestone 1
+# README for TECHIN517
 
 ## Main code repo
 Please check out the **[GitHub Page](https://github.com/ironmanyu/Laundry_and_Garbage_Collection/tree/team_main)**
